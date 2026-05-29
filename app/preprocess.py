@@ -14,15 +14,3 @@ class Preprocess1(Task):
         # ro['pre_process_data1'] = data
         # print(ro)
         return data
-
-class Preprocess2(Task):
-
-    @task
-    def run(self, ro: dict):
-        data =  ro.get('load_data')
-        # del ro['load_data']
-        data = [x + 2 for x in data]
-        # ro['pre_process_data2'] = data
-        # print(ro)
-        return data
-
