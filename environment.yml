@@ -1,0 +1,6 @@
+name: oop-prefect
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+
